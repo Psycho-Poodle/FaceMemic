@@ -1,5 +1,5 @@
 # !pip install googletrans==4.0.0-rc1
-
+from Whisper import extracted_text
 from googletrans import Translator
 
 def translate_text(text, target_language='en'):

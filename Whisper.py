@@ -62,13 +62,13 @@ def video_to_audio(video_path, destination, final_filename):
     return path_audio
 
 # Example usage
-video_path = "Videos/input_vid"
-destination = "/Audios/"
+video_path = "Videos/input_vid.mp4"
+destination = "Videos/"
 final_filename = "extracted_audio"
 path_audio = video_to_audio(video_path, destination, final_filename)
 
 
-audio_file = "/Audios/extracted_audio.wav"
+audio_file = "Videos/extracted_audio.wav"
 result = whisper_model.transcribe(audio_file)
 extracted_text = result['text']
 print(extracted_text)

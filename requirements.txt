@@ -1,16 +1,10 @@
-!pip -qqq install git+https://github.com/openai/whisper.git #cloning whisper model
-!pip -qqq install pytube
-!pip install pydub
-!pip install googletrans==4.0.0-rc1
-
-#This is for 11lab dependencies
-!pip uninstall -y pydantic
-!pip uninstall -y typing-extensions
-!pip install pydantic==2.4.2
-!pip install typing-extensions==4.8.0
+git+https://github.com/openai/whisper.git #cloning whisper model
+pytube
+pydub
+elevenlabs
 
 #Transalation of text
-!pip install googletrans==4.0.0-rc1
+googletrans==4.0.0-rc1
 
 
 # Add any general requirements for your project
@@ -29,12 +23,18 @@ requests==2.31.0
 pillow==9.4.0
 MarkupSafe==2.1.5
 charset-normalizer==3.3.2
-idna==3.6
+#idna==3.6
 urllib3==2.0.7
 certifi==2024.2.2
 mpmath==1.3.0
-ffmpeg-python
-mediapipe==0.8.11
+#ffmpeg-python
+#mediapipe==0.8.11
+
 # Git installs
 git+https://github.com/elliottzheng/batch-face.git@master
-git+https://raw.githubusercontent.com/AwaleSajil/ghc/master/ghc-1.0-py3-none-any.whl
+#git+https://raw.githubusercontent.com/AwaleSajil/ghc/master/ghc-1.0-py3-none-any.whl
+
+#wav2lip
+git+https://github.com/elliottzheng/batch-face.git@master
+https://github.com/justinjohn0306/Wav2Lip
+https://raw.githubusercontent.com/AwaleSajil/ghc/master/ghc-1.0-py3-none-any.whl
