@@ -1,5 +1,6 @@
 # ElevenLab
 #!pip install elevenlabs -U
+import Translate
 from Translate import translated_text
 import elevenlabs
 

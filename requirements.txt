@@ -8,6 +8,7 @@ googletrans==4.0.0-rc1
 
 
 # Add any general requirements for your project
+ffmpeg
 numpy==1.23.5
 torch==2.1.0+cu121
 torchvision==0.16.0+cu121
@@ -35,6 +36,6 @@ git+https://github.com/elliottzheng/batch-face.git@master
 #git+https://raw.githubusercontent.com/AwaleSajil/ghc/master/ghc-1.0-py3-none-any.whl
 
 #wav2lip
-git+https://github.com/elliottzheng/batch-face.git@master
-https://github.com/justinjohn0306/Wav2Lip
-https://raw.githubusercontent.com/AwaleSajil/ghc/master/ghc-1.0-py3-none-any.whl
+#git+https://github.com/elliottzheng/batch-face.git@master
+#https://github.com/justinjohn0306/Wav2Lip
+#https://raw.githubusercontent.com/AwaleSajil/ghc/master/ghc-1.0-py3-none-any.whl
