@@ -63,7 +63,7 @@ def video_to_audio(video_path, destination, final_filename):
 
 # Example usage
 video_path = "Videos/input_vid.mp4"
-destination = "Videos/"
+destination = "Audios/"
 final_filename = "extracted_audio"
 path_audio = video_to_audio(video_path, destination, final_filename)
 
