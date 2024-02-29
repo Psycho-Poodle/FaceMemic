@@ -1,11 +1,11 @@
 
-import 11Lab
+import ElevenLab
 input_video_path = '/Videos/input_vid.mp4'
 input_audio_path = 'Audios/clone_vic.wav'
 # %cd Wav2Lip
 
 # Set up paths and variables for the output file
-output_file_path = 'Wav2Lip/Results/result_voice.mp4'
+output_file_path = 'Results/result_voice.mp4'
 
 pad_top =  0
 pad_bottom =  10
